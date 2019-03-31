@@ -4,7 +4,7 @@ describe 'keys_of' do
     
   it "returns an array" do
     expect(animals.keys_of('Panama').class).to eq(Array)
-  end
+  end   
 
   it "returns red-footed tortoise in an array for the animal hash when passed the argument 'Panama'" do
     result = animals.keys_of('Panama')
